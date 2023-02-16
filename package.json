@@ -1,6 +1,6 @@
 {
-
-  
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   "name": "developer-portfolio-v2",
   "version": "0.1.0",
   "private": true,
